@@ -1,0 +1,88 @@
+/* =============
+  site-zxj
+============= */
+$font: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu;
+
+* {
+    font-family: $font
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.mr-15 {
+    margin-right: 15px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.ml-15 {
+    margin-left: 15px;
+}
+
+.avatar {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.white {
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+form label, table th, form button {
+    font-family: $font;
+}
+
+.page-title-box {
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+        font-family: $font;
+    }
+}
+
+div .jq-toast-single h2 {
+    font-family: $font;
+    font-weight: bold;
+}
+.table td, .table th {
+    vertical-align: middle;
+}
+
+.checkbox .checkbox-custom label {
+    font-family: "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu;
+    font-weight: bold;
+}
+.checkbox label::before{
+    margin-top:1.5px;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family:$font !important;
+    margin: 10px 0;
+}
